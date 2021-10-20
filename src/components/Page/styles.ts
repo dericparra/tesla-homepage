@@ -2,23 +2,23 @@ import styled from 'styled-components'
 
 export const Container = styled.div`
 .colored:nth-child(1) {
-background: #f1ffe7;
+background: #b5e48c;
 }
 .colored:nth-child(2) {
-background: #dfffd9;
+background: #99d98c;
 }
 .colored:nth-child(3) {
-background: #cdfeca;
+background: #76c893;
 }
 .colored:nth-child(4) {
-background: #bbfebb;
+background: #52b69a;
 }
 .colored:nth-child(5) {
-background: #a9fdac;
+background: #34a0a4;
 }
 .colored:nth-child(6) {
-background: #90f29c;
+background: #168aad;
 }
 .colored:nth-child(7) {
-background: #77e68c;
+background: #1a759f;
 }`
