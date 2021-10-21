@@ -22,3 +22,9 @@ background: #168aad;
 .colored:nth-child(7) {
 background: #1a759f;
 }`
+
+
+export const Spacer = styled.div`
+    height: 10vh;
+    background: #168aad;
+`
