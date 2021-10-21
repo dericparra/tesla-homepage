@@ -33,7 +33,8 @@ const ModelsWrapper: React.FC = ({children}) => {
       <Container ref={wrapperRef}>
         <OverlaysRoot> 
           {registeredModels.map(item => (
-            <ModelOverlay key={item.modelName}>{item.overlayNode}</ModelOverlay>
+            <ModelOverlay key={item.modelName} model={item}>
+              {item.overlayNode}</ModelOverlay>
           ))}
         </OverlaysRoot>
         
